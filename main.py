@@ -4,7 +4,7 @@ from langchain_google_genai import GoogleGenerativeAI
 import streamlit as st
 
 # Ensure the OpenAI API key is set correctly
-os.environ['GOOGLE_API_KEY'] = "AIzaSyAIr7m1lYDleEVKdCnSXAZrWAD15MuhKVw"  # Ensure `openai_key` is the correct OpenAI key
+os.environ['GOOGLE_API_KEY'] = ""  # Ensure `openai_key` is the correct OpenAI key
 
 # Streamlit framework
 st.title("Langchain demo with OpenAI API")
